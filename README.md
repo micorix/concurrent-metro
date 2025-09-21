@@ -32,10 +32,10 @@ gradle run # within nix shell
 
 Prerequisites:
 * Java 21
-* gradle
 
 ```shell
-gradle run
+./gradlew run # linux
+gradlew.bat run # windows
 ```
 
 ---
