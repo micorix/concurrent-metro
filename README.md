@@ -1,51 +1,43 @@
-# Concurrent metro - Rust version [work in progress]
+# Concurrent metro - Java version
 
-Project created for concurrent programming classes.
+Project created for concurrent programming class.
 
-Stack: Rust, Tauri, TypeScript, React, Tailwind.
+Stack: Gradle, Java, JavaFX
 
 ## Idea
 
-1. Config file is selected using a dialog [metro_config.yml](./src-tauri/metro_config.yml)
+1. Two config files are specified
+   * [basic_map_routes.yml](app/src/main/resources/org/example/routes/basic_map_routes.yml)
+     * board definition
+   * [basic_map.fxml](app/src/main/resources/org/example/maps/basic_map.fxml)
+     * routes definition
 2. According to config a grid of given size is created
 3. Threads are spawned for each train
-4. Each train emit render command through Tauri IPC
-5. Frontend updates the grid reactively
-
-Backend core is located in src-tauri/src dir.
-Frontend is located in src dir.
-
-## Status
-
-Currently broken. Rust borrowing rules + RAII defeated me ([src-tauri/src/train_thread.rs:L66](src-tauri/src/train_thread.rs)).
-See main branch for original Java version.
+4. Each train thread updates the board separately
+5. Trains must not crash!
 
 ## Quick start
 
 ### Using nix
 
 Prerequisites:
-* nix (flakes enabled)
-
-In progress
-
-### Using docker
+* [nix](https://nixos.org) (flakes enabled)
 
 ```shell
-xhost +local:docker # allow forwarding (linux)
-
-docker compose up
-
-xhost -local:docker # reset (linux)
+nix develop
+gradle run # within nix shell
 ```
 
 ### Using local tools
 
 Prerequisites:
-* Tauri prerequisites (https://tauri.app/start/prerequisites/#linux)
-* pnpm (https://pnpm.io)
+* Java 21
+* gradle
 
 ```shell
-pnpm install
-pnpm tauri dev
+gradle run
 ```
+
+---
+
+For Rust [WIP] version please see `rust-version` branch

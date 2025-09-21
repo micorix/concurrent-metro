@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller"  fx:id="board" hgap="1" vgap="1">
+    <columnConstraints>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+        <ColumnConstraints minWidth="10" prefWidth="100" maxWidth="200" hgrow="ALWAYS"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="10" prefHeight="40" maxHeight="40" vgrow="ALWAYS"/>
+    </rowConstraints>
+
+    <!-- Top row-->
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="1" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="2" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="3" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="4" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="6" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="7" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="8" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="9" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+
+    <!-- Center row -->
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="1" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="2" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="3" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="4" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="6" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="7" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="8" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="9" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+
+    <!-- Bottom row -->
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="1" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="2" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="3" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="4" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="6" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="7" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="8" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="9" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+
+
+    <!-- First column -->
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="1" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="2" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="3" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="4" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="5" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="6" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="7" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="9" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="10" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="11" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="12" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="13" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="14" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="15" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="0" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+
+    <!-- Center column -->
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="1" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="2" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="3" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="4" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="5" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="6" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="7" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="9" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="10" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="11" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="12" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="13" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="14" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="15" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="5" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+
+    <!-- Last column -->
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="1" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="2" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="3" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="4" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="5" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="6" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="7" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="8" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="9" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="10" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="11" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="12" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="13" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="14" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="15" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="10" style="-fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+
+    <!-- Train stations -->
+    <Pane GridPane.rowIndex="0" GridPane.columnIndex="0" style="-fx-background-color: brown; -fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+        <Label text="S1" textFill="white"/>
+    </Pane>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="0" style="-fx-background-color: brown; -fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+        <Label text="S2" textFill="white"/>
+    </Pane>
+    <Pane GridPane.rowIndex="16" GridPane.columnIndex="10" style="-fx-background-color: brown; -fx-border-color: black;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+        <Label text="S3" textFill="white"/>
+    </Pane>
+</GridPane>
