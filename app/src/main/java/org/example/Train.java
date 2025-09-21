@@ -34,7 +34,6 @@ public class Train implements Runnable {
         while (true) {
             while (pathIterator.hasNext()) {
                 PathElement pathElement = pathIterator.next();
-                PathElement nextPathElement = pathIterator.peek(1);
 
                 ArrayList<Coords> coordsToLock = new ArrayList<>();
 
